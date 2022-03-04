@@ -1,0 +1,11 @@
+# Pulga board configuration
+
+if BOARD_PULGA
+
+config BOARD
+	default "pulga"
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_PULGA

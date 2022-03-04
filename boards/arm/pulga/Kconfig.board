@@ -1,0 +1,5 @@
+# Pulga board configuration
+
+config BOARD_PULGA
+	bool "Pulga"
+	depends on SOC_NRF52840_QIAA
